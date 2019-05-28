@@ -18,4 +18,4 @@ layout:
   - spacer, spacer, spacer, tivo.main.4, tivo.main.5, tivo.main.6
   - spacer, spacer, spacer, tivo.main.7, tivo.main.8, tivo.main.9
   - spacer, spacer, spacer, tivo.main.clear, tivo.main.0, tivo.main.enter
-  - tivo.main.chdown, tivo.label.channel, tivo.main.chup, spacer, tivo.pg1
+  - tivo.main.chdown, tivo.label.channel, tivo.main.chup, spacer, tivo.pg1, spacer, tivo.main.findremote (3x1)
