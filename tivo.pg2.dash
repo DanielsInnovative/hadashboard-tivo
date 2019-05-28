@@ -1,0 +1,21 @@
+title: TiVo
+widget_dimensions: [120, 120]
+widget_margins: [10, 10]
+columns: 9
+global_parameters:
+  use_comma: 0
+  precision: 1
+
+tivo.pg1:
+  widget_type: navigate
+  dashboard: tivo.pg1
+  icon_active: fa-ellipsis-h
+  icon_inactive: fa-ellipsis-h
+
+layout:
+  - include: tivo
+  - tivo.main.netflix (3x1), tivo.main.1, tivo.main.2, tivo.main.3
+  - spacer, spacer, spacer, tivo.main.4, tivo.main.5, tivo.main.6
+  - spacer, spacer, spacer, tivo.main.7, tivo.main.8, tivo.main.9
+  - spacer, spacer, spacer, tivo.main.clear, tivo.main.0, tivo.main.enter
+  - tivo.main.chdown, tivo.label.channel, tivo.main.chup, spacer, tivo.pg1
