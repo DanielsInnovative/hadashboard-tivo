@@ -1,0 +1,282 @@
+
+tivo.label.channel:
+  widget_type: label
+  title2: Channel
+  title2_style: "font-size:200%;"
+
+tivo.main.0:
+  widget_type: javascript
+  command: "fetch('http://kreese/ha-helper.php?device=tivo&host=tivo&cmd=IRCODE+0')"
+  icon_active: fa-none
+  icon_inactive: fa-none
+  title2: "0"
+  title2_style: "font-size:300%;"
+
+tivo.main.1:
+  widget_type: javascript
+  command: "fetch('http://kreese/ha-helper.php?device=tivo&host=tivo&cmd=IRCODE+1')"
+  icon_active: fa-none
+  icon_inactive: fa-none
+  title2: "1"
+  title2_style: "font-size:300%;"
+
+tivo.main.2:
+  widget_type: javascript
+  command: "fetch('http://kreese/ha-helper.php?device=tivo&host=tivo&cmd=IRCODE+2')"
+  icon_active: fa-none
+  icon_inactive: fa-none
+  title2: "2"
+  title2_style: "font-size:300%;"
+
+tivo.main.3:
+  widget_type: javascript
+  command: "fetch('http://kreese/ha-helper.php?device=tivo&host=tivo&cmd=IRCODE+3')"
+  icon_active: fa-none
+  icon_inactive: fa-none
+  title2: "3"
+  title2_style: "font-size:300%;"
+
+tivo.main.4:
+  widget_type: javascript
+  command: "fetch('http://kreese/ha-helper.php?device=tivo&host=tivo&cmd=IRCODE+4')"
+  icon_active: fa-none
+  icon_inactive: fa-none
+  title2: "4"
+  title2_style: "font-size:300%;"
+
+tivo.main.5:
+  widget_type: javascript
+  command: "fetch('http://kreese/ha-helper.php?device=tivo&host=tivo&cmd=IRCODE+5')"
+  icon_active: fa-none
+  icon_inactive: fa-none
+  title2: "5"
+  title2_style: "font-size:300%;"
+
+tivo.main.6:
+  widget_type: javascript
+  command: "fetch('http://kreese/ha-helper.php?device=tivo&host=tivo&cmd=IRCODE+6')"
+  icon_active: fa-none
+  icon_inactive: fa-none
+  title2: "6"
+  title2_style: "font-size:300%;"
+
+tivo.main.7:
+  widget_type: javascript
+  command: "fetch('http://kreese/ha-helper.php?device=tivo&host=tivo&cmd=IRCODE+7')"
+  icon_active: fa-none
+  icon_inactive: fa-none
+  title2: "7"
+  title2_style: "font-size:300%;"
+
+tivo.main.8:
+  widget_type: javascript
+  command: "fetch('http://kreese/ha-helper.php?device=tivo&host=tivo&cmd=IRCODE+8')"
+  icon_active: fa-none
+  icon_inactive: fa-none
+  title2: "8"
+  title2_style: "font-size:300%;"
+
+tivo.main.9:
+  widget_type: javascript
+  command: "fetch('http://kreese/ha-helper.php?device=tivo&host=tivo&cmd=IRCODE+9')"
+  icon_active: fa-none
+  icon_inactive: fa-none
+  title2: "9"
+  title2_style: "font-size:300%;"
+
+tivo.main.advance:
+  widget_type: javascript
+  command: "fetch('http://kreese/ha-helper.php?device=tivo&host=tivo&cmd=IRCODE+ADVANCE')"
+  icon_active: fa-step-forward
+  icon_inactive: fa-step-forward
+
+tivo.main.back:
+  widget_type: javascript
+  command: "fetch('http://kreese/ha-helper.php?device=tivo&host=tivo&cmd=IRCODE+BACK')"
+  icon_active: fa-
+  icon_inactive: fa-
+  title2: "Back"
+  title2_style: "font-size:300%;"
+
+tivo.main.chdown:
+  widget_type: javascript
+  command: "fetch('http://kreese/ha-helper.php?device=tivo&host=tivo&cmd=IRCODE+CHANNELDOWN')"
+  icon_active: fa-caret-down
+  icon_inactive: fa-caret-down
+
+tivo.main.chup:
+  widget_type: javascript
+  command: "fetch('http://kreese/ha-helper.php?device=tivo&host=tivo&cmd=IRCODE+CHANNELUP')"
+  icon_active: fa-caret-up
+  icon_inactive: fa-caret-up
+
+tivo.main.clear:
+  widget_type: javascript
+  command: "fetch('http://kreese/ha-helper.php?device=tivo&host=tivo&cmd=IRCODE+CLEAR')"
+  icon_active: fa-none
+  icon_inactive: fa-none
+  title2: "Clear"
+  title2_style: "font-size:300%;"
+
+tivo.main.down:
+  widget_type: javascript
+  command: "fetch('http://kreese/ha-helper.php?device=tivo&host=tivo&cmd=IRCODE+DOWN')"
+  icon_active: fa-angle-down
+  icon_inactive: fa-angle-down
+
+tivo.main.enter:
+  widget_type: javascript
+  command: "fetch('http://kreese/ha-helper.php?device=tivo&host=tivo&cmd=IRCODE+ENTER')"
+  icon_active: fa-none
+  icon_inactive: fa-none
+  title2: "Enter"
+  title2_style: "font-size:300%;"
+
+tivo.main.findremote:
+  widget_type: javascript
+  command: "fetch('http://kreese/ha-helper.php?device=tivo&host=tivo&cmd=IRCODE+FIND_REMOTE')"
+  icon_active: fa-none
+  icon_inactive: fa-none
+  title2: "Find Remote"
+  title2_style: "font-size:300%;"
+
+tivo.main.forward:
+  widget_type: javascript
+  command: "fetch('http://kreese/ha-helper.php?device=tivo&host=tivo&cmd=KEYBOARD+FORWARD')"
+  icon_active: fa-forward
+  icon_inactive: fa-forward
+
+tivo.main.guide:
+  widget_type: javascript
+  command: "fetch('http://kreese/ha-helper.php?device=tivo&host=tivo&cmd=IRCODE+GUIDE')"
+  icon_active: fa-none
+  icon_inactive: fa-none
+  title2: "Guide"
+  title2_style: "font-size:300%;"
+
+tivo.main.info:
+  widget_type: javascript
+  command: "fetch('http://kreese/ha-helper.php?device=tivo&host=tivo&cmd=IRCODE+INFO')"
+  icon_active: fa-none
+  icon_inactive: fa-none
+  title2: "Info"
+  title2_style: "font-size:300%;"
+
+tivo.main.left:
+  widget_type: javascript
+  command: "fetch('http://kreese/ha-helper.php?device=tivo&host=tivo&cmd=IRCODE+LEFT')"
+  icon_active: fa-angle-left
+  icon_inactive: fa-angle-left
+
+tivo.main.livetv:
+  widget_type: javascript
+  command: "fetch('http://kreese/ha-helper.php?device=tivo&host=tivo&cmd=TELEPORT+LIVETV')"
+  icon_active: fa-none
+  icon_inactive: fa-none
+  title2: "Live TV"
+  title2_style: "font-size:300%;"
+
+tivo.main.netflix:
+  widget_type: javascript
+  widget_style: "background-color: red;"
+  command: "fetch('http://kreese/ha-helper.php?device=tivo&host=tivo&cmd=IRCODE+NETFLIX')"
+  icon_active: fa-netflix
+  icon_inactive: fa-netflix
+  title2: "Netflix"
+  title2_style: "font-size:300%;"
+
+tivo.main.play:
+  widget_type: javascript
+  command: "fetch('http://kreese/ha-helper.php?device=tivo&host=tivo&cmd=IRCODE+PLAY')"
+  icon_active: fa-play
+  icon_inactive: fa-play
+
+tivo.main.pause:
+  widget_type: javascript
+  widget_style: "background-color: #ffff66;"
+  command: "fetch('http://kreese/ha-helper.php?device=tivo&host=tivo&cmd=IRCODE+PAUSE')"
+  icon_active: fa-pause
+  icon_inactive: fa-pause
+
+tivo.main.record:
+  widget_type: javascript
+  widget_style: "background-color: red;"
+  command: "fetch('http://kreese/ha-helper.php?device=tivo&host=tivo&cmd=IRCODE+RECORD')"
+  icon_active: fa-circle
+  icon_inactive: fa-circle
+
+tivo.main.replay:
+  widget_type: javascript
+  command: "fetch('http://kreese/ha-helper.php?device=tivo&host=tivo&cmd=IRCODE+REPLAY')"
+  icon_active: fa-undo
+  icon_inactive: fa-undo
+
+tivo.main.rewind:
+  widget_type: javascript
+  command: "fetch('http://kreese/ha-helper.php?device=tivo&host=tivo&cmd=KEYBOARD+REVERSE')"
+  icon_active: fa-backward
+  icon_inactive: fa-backward
+
+tivo.main.right:
+  widget_type: javascript
+  command: "fetch('http://kreese/ha-helper.php?device=tivo&host=tivo&cmd=IRCODE+RIGHT')"
+  icon_active: fa-angle-right
+  icon_inactive: fa-angle-right
+
+tivo.main.select:
+  widget_type: javascript
+  command: "fetch('http://kreese/ha-helper.php?device=tivo&host=tivo&cmd=IRCODE+SELECT')"
+  icon_active: fa-none
+  icon_inactive: fa-none
+  title2: "Select"
+  title2_style: "font-size:250%;"
+
+tivo.main.skipmode:
+  widget_type: javascript
+  widget_style: "background-color: yellow;"
+  command: "fetch('http://kreese/ha-helper.php?device=tivo&host=tivo&cmd=IRCODE+ACTION_D')"
+  icon_active: fa-share
+  icon_inactive: fa-share
+
+tivo.main.slow:
+  widget_type: javascript
+  command: "fetch('http://kreese/ha-helper.php?device=tivo&host=tivo&cmd=IRCODE+SLOW')"
+  icon_active: fa-sign-out
+  icon_inactive: fa-sign-out
+
+tivo.main.thumbsdown:
+  widget_type: javascript
+  widget_style: "background-color: red;"
+  command: "fetch('http://kreese/ha-helper.php?device=tivo&host=tivo&cmd=IRCODE+THUMBSDOWN')"
+  icon_active: fa-thumbs-down
+  icon_inactive: fa-thumbs-down
+
+tivo.main.thumbsup:
+  widget_type: javascript
+  widget_style: "background-color: green;"
+  command: "fetch('http://kreese/ha-helper.php?device=tivo&host=tivo&cmd=IRCODE+THUMBSUP')"
+  icon_active: fa-thumbs-up
+  icon_inactive: fa-thumbs-up
+
+tivo.main.tivo:
+  widget_type: javascript
+  widget_style: "background-color: deepskyblue;"
+  command: "fetch('http://kreese/ha-helper.php?device=tivo&host=tivo&cmd=IRCODE+TIVO')"
+  icon_active: fa-none
+  icon_inactive: fa-none
+  title2: "TiVo"
+  title2_style: "font-size:300%;"
+
+tivo.main.up:
+  widget_type: javascript
+  command: "fetch('http://kreese/ha-helper.php?device=tivo&host=tivo&cmd=IRCODE+UP')"
+  icon_active: fa-angle-up
+  icon_inactive: fa-angle-up
+
+tivo.main.zoom:
+  widget_type: javascript
+  command: "fetch('http://kreese/ha-helper.php?device=tivo&host=tivo&cmd=IRCODE+ZOOM')"
+  icon_active: fa-
+  icon_inactive: fa-
+  title2: "Zoom"
+  title2_style: "font-size:300%;"
