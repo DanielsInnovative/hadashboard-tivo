@@ -1,0 +1,21 @@
+title: TiVo
+widget_dimensions: [120, 120]
+widget_margins: [10, 10]
+columns: 9
+global_parameters:
+  use_comma: 0
+  precision: 1
+
+tivo.pg2:
+  widget_type: navigate
+  dashboard: tivo.pg2
+  icon_active: fa-ellipsis-h
+  icon_inactive: fa-ellipsis-h
+
+layout:
+  - include: tivo
+  - spacer, tivo.main.up, spacer, tivo.main.info, tivo.main.tivo, tivo.main.livetv, spacer, tivo.main.play
+  - tivo.main.left, tivo.main.select, tivo.main.right, spacer, tivo.main.guide, spacer, tivo.main.rewind, tivo.main.pause, tivo.main.forward
+  - spacer, tivo.main.down, spacer, spacer, tivo.main.zoom, spacer, spacer, tivo.main.slow, spacer
+  - tivo.main.thumbsdown, spacer, tivo.main.thumbsup, spacer, spacer, spacer, tivo.main.replay, tivo.main.record, tivo.main.advance
+  - tivo.main.chdown, tivo.label.channel, tivo.main.chup, spacer, tivo.pg2, spacer, spacer, tivo.main.skipmode
