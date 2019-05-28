@@ -134,6 +134,7 @@ tivo.main.enter:
 
 tivo.main.findremote:
   widget_type: javascript
+  widget_style: "background-color: deepskyblue;"
   command: "fetch('http://kreese/ha-helper.php?device=tivo&host=tivo&cmd=IRCODE+FIND_REMOTE')"
   icon_active: fa-none
   icon_inactive: fa-none
@@ -233,10 +234,12 @@ tivo.main.select:
 
 tivo.main.skipmode:
   widget_type: javascript
-  widget_style: "background-color: yellow;"
+  widget_style: "background-color: green;"
   command: "fetch('http://kreese/ha-helper.php?device=tivo&host=tivo&cmd=IRCODE+ACTION_D')"
-  icon_active: fa-share
-  icon_inactive: fa-share
+  icon_active: fa-none
+  icon_inactive: fa-none
+  title2: "Skip"
+  title2_style: "font-size:300%;"
 
 tivo.main.slow:
   widget_type: javascript
