@@ -93,8 +93,8 @@ tivo.main.advance:
 tivo.main.back:
   widget_type: javascript
   command: "fetch('http://kreese/ha-helper.php?device=tivo&host=tivo&cmd=IRCODE+BACK')"
-  icon_active: fa-
-  icon_inactive: fa-
+  icon_active: fa-none
+  icon_inactive: fa-none
   title2: "Back"
   title2_style: "font-size:300%;"
 
@@ -279,7 +279,7 @@ tivo.main.up:
 tivo.main.zoom:
   widget_type: javascript
   command: "fetch('http://kreese/ha-helper.php?device=tivo&host=tivo&cmd=IRCODE+ZOOM')"
-  icon_active: fa-
-  icon_inactive: fa-
+  icon_active: fa-none
+  icon_inactive: fa-none
   title2: "Zoom"
   title2_style: "font-size:300%;"
