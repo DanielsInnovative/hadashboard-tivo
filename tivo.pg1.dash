@@ -8,7 +8,9 @@ global_parameters:
 
 tivo.pg2:
   widget_type: navigate
+  widget_style: "font-size:150%;"
   dashboard: tivo.pg2
+  title: "Page 2"
   icon_active: fa-ellipsis-h
   icon_inactive: fa-ellipsis-h
 
