@@ -1,0 +1,188 @@
+tivo.main.channel.abc:
+  widget_type: javascript
+  widget_style: "background-color: white; background-image: url('http://kreese/tivo/logos/abc.png');background-position-x: center; background-position-y: 60%; background-repeat: no-repeat;"
+  command: "fetch('http://kreese/ha-helper.php?device=tivo&host=tivo&cmd=FORCECH+ABC')"
+  icon_active: fa-none
+  icon_inactive: fa-none
+  title2: "506"
+  title2_style: "font-size:150%; color:black;"
+
+tivo.main.channel.cbs:
+  widget_type: javascript
+  widget_style: "background-color: white; background-image: url('http://kreese/tivo/logos/cbs.png');background-position-x: center; background-position-y: 60%; background-repeat: no-repeat;"
+  command: "fetch('http://kreese/ha-helper.php?device=tivo&host=tivo&cmd=FORCECH+CBS')"
+  icon_active: fa-none
+  icon_inactive: fa-none
+  title2: "503"
+  title2_style: "font-size:150%; color:black;"
+
+tivo.main.channel.fox:
+  widget_type: javascript
+  widget_style: "background-color: white; background-image: url('http://kreese/tivo/logos/fox.png');background-position-x: center; background-position-y: 60%; background-repeat: no-repeat;"
+  command: "fetch('http://kreese/ha-helper.php?device=tivo&host=tivo&cmd=FORCECH+FOX')"
+  icon_active: fa-none
+  icon_inactive: fa-none
+  title2: "513"
+  title2_style: "font-size:150%; color:black;"
+
+tivo.main.channel.nbc:
+  widget_type: javascript
+  widget_style: "background-color: white; background-image: url('http://kreese/tivo/logos/nbc.png');background-position-x: center; background-position-y: 60%; background-repeat: no-repeat;"
+  command: "fetch('http://kreese/ha-helper.php?device=tivo&host=tivo&cmd=FORCECH+NBC')"
+  icon_active: fa-none
+  icon_inactive: fa-none
+  title2: "510"
+  title2_style: "font-size:150%; color:black;"
+
+tivo.main.channel.pbs:
+  widget_type: javascript
+  widget_style: "background-color: white; background-image: url('http://kreese/tivo/logos/pbs.png');background-position-x: center; background-position-y: 60%; background-repeat: no-repeat;"
+  command: "fetch('http://kreese/ha-helper.php?device=tivo&host=tivo&cmd=FORCECH+PBS')"
+  icon_active: fa-none
+  icon_inactive: fa-none
+  title2: "512"
+  title2_style: "font-size:150%; color:black;"
+
+tivo.main.channel.ae:
+  widget_type: javascript
+  widget_style: "background-color: white; background-image: url('http://kreese/tivo/logos/ae.png');background-position-x: center; background-position-y: 60%; background-repeat: no-repeat;"
+  command: "fetch('http://kreese/ha-helper.php?device=tivo&host=tivo&cmd=FORCECH+A&E')"
+  icon_active: fa-none
+  icon_inactive: fa-none
+  title2: "681"
+  title2_style: "font-size:150%; color:black;"
+
+tivo.main.channel.bravo:
+  widget_type: javascript
+  widget_style: "background-color: white; background-image: url('http://kreese/tivo/logos/bravo.png');background-position-x: center; background-position-y: 60%; background-repeat: no-repeat;"
+  command: "fetch('http://kreese/ha-helper.php?device=tivo&host=tivo&cmd=FORCECH+Bravo')"
+  icon_active: fa-none
+  icon_inactive: fa-none
+  title2: "685"
+  title2_style: "font-size:150%; color:black;"
+
+tivo.main.channel.cw:
+  widget_type: javascript
+  widget_style: "background-color: white; background-image: url('http://kreese/tivo/logos/cw.png');background-position-x: center; background-position-y: 60%; background-repeat: no-repeat;"
+  command: "fetch('http://kreese/ha-helper.php?device=tivo&host=tivo&cmd=FORCECH+CW')"
+  icon_active: fa-none
+  icon_inactive: fa-none
+  title2: "516"
+  title2_style: "font-size:150%; color:black;"
+
+tivo.main.channel.espn:
+  widget_type: javascript
+  widget_style: "background-color: white; background-image: url('http://kreese/tivo/logos/espn.png');background-position-x: center; background-position-y: 60%; background-repeat: no-repeat;"
+  command: "fetch('http://kreese/ha-helper.php?device=tivo&host=tivo&cmd=FORCECH+ESPN')"
+  icon_active: fa-none
+  icon_inactive: fa-none
+  title2: "570"
+  title2_style: "font-size:150%; color:black;"
+
+tivo.main.channel.hgtv:
+  widget_type: javascript
+  widget_style: "background-color: white; background-image: url('http://kreese/tivo/logos/hgtv.png');background-position-x: center; background-position-y: 60%; background-repeat: no-repeat;"
+  command: "fetch('http://kreese/ha-helper.php?device=tivo&host=tivo&cmd=FORCECH+HGTV')"
+  icon_active: fa-none
+  icon_inactive: fa-none
+  title2: "665"
+  title2_style: "font-size:150%; color:black;"
+
+tivo.main.channel.syfy:
+  widget_type: javascript
+  widget_style: "background-color: white; background-image: url('http://kreese/tivo/logos/syfy.png');background-position-x: center; background-position-y: 60%; background-repeat: no-repeat;"
+  command: "fetch('http://kreese/ha-helper.php?device=tivo&host=tivo&cmd=FORCECH+SyFy')"
+  icon_active: fa-none
+  icon_inactive: fa-none
+  title2: "680"
+  title2_style: "font-size:150%; color:black;"
+
+tivo.main.channel.tlc:
+  widget_type: javascript
+  widget_style: "background-color: white; background-image: url('http://kreese/tivo/logos/tlc.png');background-position-x: center; background-position-y: 60%; background-repeat: no-repeat;"
+  command: "fetch('http://kreese/ha-helper.php?device=tivo&host=tivo&cmd=FORCECH+TLC')"
+  icon_active: fa-none
+  icon_inactive: fa-none
+  title2: "639"
+  title2_style: "font-size:150%; color:black;"
+
+tivo.main.channel.70s:
+  widget_type: javascript
+  widget_style: "background-color: white; background-image: url('http://kreese/tivo/logos/musicchoice.png');background-position-x: center; background-position-y: 60%; background-repeat: no-repeat;"
+  command: "fetch('http://kreese/ha-helper.php?device=tivo&host=tivo&cmd=FORCECH+1828')"
+  icon_active: fa-none
+  icon_inactive: fa-none
+  title: "70s"
+  title_style: "color:black;"
+
+tivo.main.channel.80s:
+  widget_type: javascript
+  widget_style: "background-color: white; background-image: url('http://kreese/tivo/logos/musicchoice.png');background-position-x: center; background-position-y: 60%; background-repeat: no-repeat;"
+  command: "fetch('http://kreese/ha-helper.php?device=tivo&host=tivo&cmd=FORCECH+1827')"
+  icon_active: fa-none
+  icon_inactive: fa-none
+  title: "80s"
+  title_style: "color:black;"
+
+tivo.main.channel.90s:
+  widget_type: javascript
+  widget_style: "background-color: white; background-image: url('http://kreese/tivo/logos/musicchoice.png');background-position-x: center; background-position-y: 60%; background-repeat: no-repeat;"
+  command: "fetch('http://kreese/ha-helper.php?device=tivo&host=tivo&cmd=FORCECH+1826')"
+  icon_active: fa-none
+  icon_inactive: fa-none
+  title: "90s"
+  title_style: "color:black;"
+
+tivo.main.channel.classicrock:
+  widget_type: javascript
+  widget_style: "background-color: white; background-image: url('http://kreese/tivo/logos/musicchoice.png');background-position-x: center; background-position-y: 60%; background-repeat: no-repeat;"
+  command: "fetch('http://kreese/ha-helper.php?device=tivo&host=tivo&cmd=FORCECH+1816')"
+  icon_active: fa-none
+  icon_inactive: fa-none
+  title: "Classic Rock"
+  title_style: "color:black;"
+
+tivo.main.channel.hitlist:
+  widget_type: javascript
+  widget_style: "background-color: white; background-image: url('http://kreese/tivo/logos/musicchoice.png');background-position-x: center; background-position-y: 60%; background-repeat: no-repeat;"
+  command: "fetch('http://kreese/ha-helper.php?device=tivo&host=tivo&cmd=FORCECH+1800')"
+  icon_active: fa-none
+  icon_inactive: fa-none
+  title: "Hit List"
+  title_style: "color:black;"
+
+tivo.main.channel.partyfavorites:
+  widget_type: javascript
+  widget_style: "background-color: white; background-image: url('http://kreese/tivo/logos/musicchoice.png');background-position-x: center; background-position-y: 60%; background-repeat: no-repeat;"
+  command: "fetch('http://kreese/ha-helper.php?device=tivo&host=tivo&cmd=FORCECH+1821')"
+  icon_active: fa-none
+  icon_inactive: fa-none
+  title: "Party Favorites"
+  title_style: "color:black;"
+
+tivo.main.channel.rock:
+  widget_type: javascript
+  widget_style: "background-color: white; background-image: url('http://kreese/tivo/logos/musicchoice.png');background-position-x: center; background-position-y: 60%; background-repeat: no-repeat;"
+  command: "fetch('http://kreese/ha-helper.php?device=tivo&host=tivo&cmd=FORCECH+1812')"
+  icon_active: fa-none
+  icon_inactive: fa-none
+  title: "Rock"
+  title_style: "color:black;"
+
+tivo.main.channel.softrock:
+  widget_type: javascript
+  widget_style: "background-color: white; background-image: url('http://kreese/tivo/logos/musicchoice.png');background-position-x: center; background-position-y: 60%; background-repeat: no-repeat;"
+  command: "fetch('http://kreese/ha-helper.php?device=tivo&host=tivo&cmd=FORCECH+1818')"
+  icon_active: fa-none
+  icon_inactive: fa-none
+  title: "Soft Rock"
+  title_style: "color:black;"
+
+tivo.main.channel.soundoftheseasons:
+  widget_type: javascript
+  widget_style: "background-color: white; background-image: url('http://kreese/tivo/logos/musicchoice.png');background-position-x: center; background-position-y: 60%; background-repeat: no-repeat;"
+  command: "fetch('http://kreese/ha-helper.php?device=tivo&host=tivo&cmd=FORCECH+1840')"
+  icon_active: fa-none
+  icon_inactive: fa-none
+  title: "Sound of the Seasons"
+  title_style: "color:black;"
