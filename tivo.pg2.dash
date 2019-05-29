@@ -16,8 +16,9 @@ tivo.pg1:
 
 layout:
   - include: tivo
-  - tivo.main.netflix (3x1), tivo.main.1, tivo.main.2, tivo.main.3
-  - spacer, spacer, spacer, tivo.main.4, tivo.main.5, tivo.main.6
-  - spacer, spacer, spacer, tivo.main.7, tivo.main.8, tivo.main.9
-  - spacer, spacer, spacer, tivo.main.clear, tivo.main.0, tivo.main.enter
+  - include: tivo.channels
+  - tivo.main.channel.abc, tivo.main.channel.cbs, tivo.main.channel.fox, tivo.main.1, tivo.main.2, tivo.main.3, tivo.main.channel.70s, tivo.main.channel.80s, tivo.main.channel.90s
+  - tivo.main.channel.nbc, tivo.main.channel.cw, tivo.main.channel.pbs, tivo.main.4, tivo.main.5, tivo.main.6, tivo.main.channel.classicrock, tivo.main.channel.softrock, tivo.main.channel.rock
+  - tivo.main.channel.espn, tivo.main.channel.hgtv, tivo.main.channel.syfy, tivo.main.7, tivo.main.8, tivo.main.9, tivo.main.channel.hitlist, tivo.main.channel.soundoftheseasons, tivo.main.channel.partyfavorites
+  - tivo.main.channel.ae, tivo.main.channel.bravo, tivo.main.channel.tlc, tivo.main.clear, tivo.main.0, tivo.main.enter, tivo.main.netflix (3x1)
   - tivo.main.chdown, tivo.label.channel, tivo.main.chup, spacer, tivo.pg1, spacer, tivo.main.findremote (3x1)
