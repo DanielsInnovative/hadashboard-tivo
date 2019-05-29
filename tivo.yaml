@@ -179,12 +179,12 @@ tivo.main.livetv:
 
 tivo.main.netflix:
   widget_type: javascript
-  widget_style: "background-color: red;"
+  widget_style: "background-color: white;"
   command: "fetch('http://kreese/ha-helper.php?device=tivo&host=tivo&cmd=IRCODE+NETFLIX')"
   icon_active: fa-netflix
   icon_inactive: fa-netflix
   title2: "Netflix"
-  title2_style: "font-size:300%;"
+  title2_style: "font-size:300%; color: red;"
 
 tivo.main.play:
   widget_type: javascript
